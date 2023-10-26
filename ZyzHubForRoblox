@@ -488,3 +488,8 @@ Tab:AddButton({
       		loadstring(game:HttpGet(("https://raw.githubusercontent.com/ionlyusegithubformcmods/1-Line-Scripts/main/Slap%20Battles")))()
   	end    
 })
+local Tab = Window:MakeTab({
+	Name = "testing",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+}
